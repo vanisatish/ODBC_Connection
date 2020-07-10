@@ -1,6 +1,6 @@
 import mysql.connector
 
-mydb = mysql.connector.connect(host='127.0.0.1', user='root', password='mysql4me', database='testdb')
+mydb = mysql.connector.connect(host='127.0.0.1', user='*****', password='*****', database='testdb')
 print(mydb)
 
 # creating a DB with a cursor. Cursor is an object that communicates with the entire mysql server
