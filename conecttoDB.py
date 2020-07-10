@@ -2,7 +2,7 @@
 import mysql.connector
 
 
-mydb = mysql.connector.connect(host='127.0.0.1', user='root', password='mysql4me', database='testdb')
+mydb = mysql.connector.connect(host='127.0.0.1', user='****', password='****', database='testdb')
 print(mydb)
 # , auth_plugin='mysql_native_password'
 # , database="testdb"
